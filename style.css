@@ -1,0 +1,79 @@
+body
+{
+    background-color: rgb(209, 205, 205);
+}
+#table-container 
+{
+    position: relative;
+    margin-top: 10px;
+    display: none;
+    display: block;
+    
+}
+#table-container thead  
+{
+    background-color: yellowgreen;
+}
+#table-container #del_btn 
+{
+    margin-right: 130px;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: rgb(190, 77, 77);
+    color: #fff;
+}
+#table-container .table 
+{
+    box-shadow: 10px 15px 5px rgb(112, 111, 111);
+}
+.text-show 
+{
+    margin-top: 400px;
+    overflow: hidden;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1000;
+    display: block;
+    margin-left: 100px;
+    color: rgb(255, 254, 253);
+    font-weight: 500;
+    font-size: 16px;
+    background-color: black;
+    padding: 10px;
+    box-shadow: 5px 10px 10px rgb(39, 39, 39);
+    border-radius: 7px;
+   
+}
+#sub-form 
+{
+    text-align: center;
+   
+}
+.form-container
+{
+   
+   display: block;
+   background-color: rgb(255, 145, 0);
+   padding: 30px 100px;
+   height: 400px; 
+   
+   
+}
+
+#form label 
+{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#form input 
+{
+    padding: 5px 20px 5px 20px;
+    border: 1px solid rgb(221, 157, 37);
+    border-radius: 5px;
+    display: block;
+}
+.form-container div 
+{
+    text-align: center;
+}
